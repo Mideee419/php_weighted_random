@@ -1,5 +1,5 @@
 # php_weighted_random
-A PHP7 class to generate weighted random results. This may also be called "biased random", "reservoir sampling", or "lootbox" by some folks.
+A PHP7 class to generate weighted random results. This may also be called "biased random", "reservoir sampling", or "lootbox results" by some folks. It can return a single weighted random item, an array of weighted random items, or print a results table for you.
 
 Weights or bias can be:
 
