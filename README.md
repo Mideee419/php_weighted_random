@@ -1,11 +1,16 @@
 # php_weighted_random
 A PHP7 class to generate weighted random results. This may also be called "biased random", "reservoir sampling", or "lootbox" by some folks.
+
 Weights or bias can be:
+
 Even - such as with a coin where the odds are 50/50
+
 Loaded - like a cheaters dice where one side has slightly higher odds of being rolled
+
 Mixed - like a loot box would be in a videogame
 
-Calculations and results can be performed multiple times on the same object.
+
+Calculations and results can be performed multiple times on the same object. Default objects are available: coin, dice, color, and lootbox.
  
 ## Getting Started
 Be running PHP 7 on your web server.
