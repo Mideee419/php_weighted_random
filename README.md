@@ -26,7 +26,7 @@ $wrandom->return_array_random_results($num = 50000) - Returns an array  with eac
 
 
 ## Examples
-
+Using default item bag of lootbox.
 ```
 <?
 //add weightedrandom file
@@ -46,7 +46,7 @@ echo $wrandom->return_single_random_item();
 
 
 
-//return reults after 50,000 picks
+//return array after 50,000 picks
 print_r($wrandom->return_array_random_results(50000));
 
 
@@ -79,8 +79,81 @@ Array
     [Spear] => 456
 )
 ```
+Using a custom item bag with bias.
+```
+<?
+//add weightedrandom file
+
+require_once("weightedrandom.php");
+
+//create $wrandom object with custom objects for the bag
+
+$wrandom = new weightedrandom(array("Whiskey" => 20,"Beer" => 10,"Gin" => 5,"Vodka" => 8));
 
 
+
+//return a single random item
+
+echo $wrandom->return_single_random_item();
+
+//calculate 10 picks and print a results table
+$wrandom->calculate_multiple_results(10);
+$wrandom->print_results_table();
+
+//calculate 1,000,000 picks and print results table
+$wrandom->calculate_multiple_results(1000000);
+$wrandom->print_results_table();
+
+
+//return array after 50,000 picks
+print_r($wrandom->return_array_random_results(50000));
+
+
+
+?>
+```
+The above would result in:
+
+Single item:
+```
+Whiskey
+```
+
+Table results:
+```
+Total items: 4
+Total weight: 43
+Total rolls: 10
+
+Item	   Weight	 % Weight	 Result Count	 Result %	 Difference
+Whiskey	20	     46.512	   3	            30	       -16.512
+Beer	   10	     23.256	   3	            30	       6.744
+Gin	    5	      11.628	   2	            20	       8.372
+Vodka	  8	      18.605	   2	            20	       1.395
+
+
+
+Total items: 4
+Total weight: 43
+Total rolls: 1000000
+
+Item	   Weight	 % Weight	 Result Count	 Result %	 Difference
+Whiskey	20	     46.512	   465642	       46.564	   0.052
+Beer	   10	     23.256	   232190	       23.219	   -0.037
+Gin	    5	      11.628	   116088	       11.609	   -0.019
+Vodka	  8	      18.605	   186080	       18.608	   0.003
+```
+
+Array result:
+```
+Array
+(
+    [Whiskey] => 23291
+    [Gin] => 5820
+    [Vodka] => 9124
+    [Beer] => 11765
+)
+```
 ## Acknowledgments
 The method of calculating the weighted random as used in this program is from:
 https://stackoverflow.com/questions/1761626/weighted-random-numbers
