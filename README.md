@@ -32,7 +32,9 @@ $wrandom->return_single_random_item() - Returns a single weighted random item na
 
 $wrandom->return_array_random_results($num = 50000) - Returns an array  with each item and the number of times it was selected. If a number is provided this is the number of items selected.
 
+$wrandom->calculate_multiple_results($num = 50000) - Executes the number of picks requested but nothing is returned.
 
+$wrandom->print_results_table() - Prints an HTML table with information about the items and results.
 
 
 ## Examples
