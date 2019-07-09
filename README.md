@@ -14,6 +14,8 @@ Calculations and results can be performed multiple times on the same object.
 
 Items to roll on can be provided at run time or default objects are available for selection coin, cheaters dice, colors, and lootbox.
 To use custom items simple pass an array with item names and weights to the object when it is instantiated.
+
+Class documented both inline and using phpdocumentor for reference.
  
 ## Getting Started
 Be running PHP 7 on your web server.
