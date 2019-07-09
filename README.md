@@ -10,7 +10,10 @@ Loaded - like a cheaters dice where one side has slightly higher odds of being r
 Mixed - like a loot box would be in a videogame
 
 
-Calculations and results can be performed multiple times on the same object. Default objects are available: coin, dice, color, and lootbox.
+Calculations and results can be performed multiple times on the same object. 
+
+Items to roll on can be provided at run time or default objects are available for selection coin, cheaters dice, colors, and lootbox.
+To use custom items simple pass an array with item names and weights to the object when it is instantiated.
  
 ## Getting Started
 Be running PHP 7 on your web server.
