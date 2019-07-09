@@ -7,7 +7,7 @@ Even - such as with a coin where the odds are 50/50
 
 Loaded - like a cheaters dice where one side has slightly higher odds of being rolled
 
-Mixed - like a loot box would be in a videogame
+Mixed - like a loot box would be in a videogame or a presidential election
 
 
 Calculations and results can be performed multiple times on the same object. 
@@ -136,10 +136,10 @@ Total weight: 43
 Total rolls: 10
 
 Item	   Weight	 % Weight	 Result Count	 Result %	 Difference
-Whiskey 20	     46.512	   3	            30	       -16.512
-Beer    10	     23.256	   3	            30	       6.744
-Gin     5	      11.628	   2	            20	       8.372
-Vodka   8	      18.605	   2	            20	       1.395
+Whiskey   20	     46.512	   3	            30	       -16.512
+Beer      10	     23.256	   3	            30	       6.744
+Gin       5	      11.628	   2	            20	       8.372
+Vodka     8	      18.605	   2	            20	       1.395
 
 
 
@@ -148,10 +148,10 @@ Total weight: 43
 Total rolls: 1000000
 
 Item	   Weight	 % Weight	 Result Count	 Result %	 Difference
-Whiskey	20	     46.512	   465642	       46.564	   0.052
-Beer	   10	     23.256	   232190	       23.219	   -0.037
-Gin	    5	      11.628	   116088	       11.609	   -0.019
-Vodka	  8	      18.605	   186080	       18.608	   0.003
+Whiskey   20	     46.512	   465642	       46.564	   0.052
+Beer      10	     23.256	   232190	       23.219	   -0.037
+Gin       5	      11.628	   116088	       11.609	   -0.019
+Vodka     8	      18.605	   186080	       18.608	   0.003
 ```
 
 Array result:
