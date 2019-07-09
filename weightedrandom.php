@@ -286,15 +286,4 @@ class weightedrandom
     }//end function print_results_table
     
 }//end class weightedrandom
-
-
-$wrandom = new weightedrandom(array("Whiskey" => 20,"Beer" => 10,"Gin" => 5,"Vodka" => 8));
-echo $wrandom->return_single_random_item();
-$wrandom->calculate_multiple_results(10);
-$wrandom->print_results_table();
-$wrandom->calculate_multiple_results(1000000);
-$wrandom->print_results_table();
-echo "<pre>";
-print_r($wrandom->return_array_random_results(50000));
-
 ?>
