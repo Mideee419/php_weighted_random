@@ -34,6 +34,7 @@ $wrandom->return_array_random_results($num = 50000) - Returns an array  with eac
 
 
 ## Examples
+### Example 1
 Using default item bag of lootbox.
 ```
 <?
@@ -87,6 +88,7 @@ Array
     [Spear] => 456
 )
 ```
+### Example 2
 Using a custom item bag with bias.
 ```
 <?
