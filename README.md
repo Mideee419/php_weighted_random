@@ -169,7 +169,7 @@ Array
 )
 ```
 ## Acknowledgments
-The method of calculating the weighted random as used in this program is from:
+The method of calculating the weighted random / biased random as used in this program is from:
 https://stackoverflow.com/questions/1761626/weighted-random-numbers
 https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/
 https://xlinux.nist.gov/dads//HTML/reservoirSampling.html
