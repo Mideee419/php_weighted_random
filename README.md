@@ -136,10 +136,10 @@ Total weight: 43
 Total rolls: 10
 
 Item	   Weight	 % Weight	 Result Count	 Result %	 Difference
-Whiskey	20	     46.512	   3	            30	       -16.512
-Beer				10	     23.256	   3	            30	       6.744
-Gin					5	      11.628	   2	            20	       8.372
-Vodka			8	      18.605	   2	            20	       1.395
+Whiskey 20	     46.512	   3	            30	       -16.512
+Beer    10	     23.256	   3	            30	       6.744
+Gin     5	      11.628	   2	            20	       8.372
+Vodka   8	      18.605	   2	            20	       1.395
 
 
 
