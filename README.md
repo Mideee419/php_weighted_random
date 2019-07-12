@@ -13,7 +13,7 @@ Mixed - like a loot box would be in a videogame or a presidential election
 Calculations and results can be performed multiple times on the same object. 
 
 Items to roll on can be provided at run time as an array or default objects are available for selection such as: coin, cheaters dice, colors, and lootbox.
-To use custom items simple pass an array with item names and weights to the object when it is instantiated.
+To use custom items pass an array with item names and weights to the object when it is instantiated.
 
 Class documented both inline and using phpdocumentor for reference.
  
