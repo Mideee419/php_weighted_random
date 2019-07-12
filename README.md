@@ -12,7 +12,7 @@ Mixed - like a loot box would be in a videogame or a presidential election
 
 Calculations and results can be performed multiple times on the same object. 
 
-Items to roll on can be provided at run time or default objects are available for selection coin, cheaters dice, colors, and lootbox.
+Items to roll on can be provided at run time as an array or default objects are available for selection such as: coin, cheaters dice, colors, and lootbox.
 To use custom items simple pass an array with item names and weights to the object when it is instantiated.
 
 Class documented both inline and using phpdocumentor for reference.
@@ -30,7 +30,7 @@ Call functions as needed.
 ## Available Functions
 $wrandom->return_single_random_item() - Returns a single weighted random item name as a string.
 
-$wrandom->return_array_random_results($num = 50000) - Returns an array  with each item and the number of times it was selected. If a number is provided this is the number of items selected.
+$wrandom->return_array_random_results($num = 50000) - Returns an array with each item and the number of times it was selected. If a number is provided this is the number of items selected.
 
 $wrandom->calculate_multiple_results($num = 50000) - Executes the number of picks requested but nothing is returned.
 
@@ -170,8 +170,11 @@ Array
 ```
 ## Acknowledgments
 The method of calculating the weighted random / biased random as used in this program is from:
+
 https://stackoverflow.com/questions/1761626/weighted-random-numbers
+
 https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/
+
 https://xlinux.nist.gov/dads//HTML/reservoirSampling.html
 
 ## Misc
